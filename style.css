@@ -1,6 +1,7 @@
 html, body{  
     margin: 0;
     padding: 0;
+    font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .bg-image{
@@ -21,10 +22,44 @@ html, body{
    
     position: relative;
     background-color: white;
+    text-align: center;
 }
-h1{
+h1,
+h3{
     padding: 8px;
-    margin: 8px;
     color: green;
-    text-align: center;    
+    text-align: center;
+    font-weight: bolder;  
+}
+h3{
+    margin: -20px;
+}
+img{
+    margin-bottom: 20px;
+}
+p{
+    padding: 16px 100px;
+    background-color: rgb(241, 241, 241);
+    text-align: justify;
+}
+a{
+    display: inline-block;
+    padding: 4px 16px;
+    background-color: green;
+    color: rgb(241, 241, 241);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+a:hover{
+    background-color: rgb(241, 241, 241);
+    color: green;
+}
+ul.center-list,
+ol.center-list{
+    display: inline-block;
+    text-align: justify ;
+    background-color: rgb(241, 241, 241);
+    padding: 16px 100px;
 }
