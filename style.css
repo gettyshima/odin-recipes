@@ -64,7 +64,7 @@ ol.center-list{
     display: inline-block;
     text-align: justify ;
     background-color: rgb(241, 241, 241);
-    padding: 16px 100px;
+    padding: 16px 32px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
